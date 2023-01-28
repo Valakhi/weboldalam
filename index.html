@@ -1,0 +1,361 @@
+<!--html:5-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Stílus állomány-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Favicon elhelyezése a címsorban-->
+    <link rel="icon" type="image/x-icon" href="images/icons8-bookmark-16.png">
+    <!--Font awesome link-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!--betűstílusok használata-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" type="text/css">
+    <!--Egyedi script meghívása-->
+    <script src="js/scripts.js"></script>
+    <!--Bootstrap js script állományok-->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sb-forms-0.4.1.js"></script>
+    <title>Scheller Soma</title>
+</head>
+<body id="page-top">
+    <!--Navigációs menü kialakítása-->
+    <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Fel</a>
+            <!--Hamburger menü-->
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-secondary bg text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="KATT">
+                Menü
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <!--menüpontok-->
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px- px-lg-3 rounded" href="#portfolio">képek</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px- px-lg-3 rounded" href="#about">Rólam</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px- px-lg-3 rounded" href="#contact">Elérhetőség</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--fő fejlécünk kezdete-->
+    <header class="masthead bg-secondary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!--fő fejléc avatar képe-->
+            <img src="images/avatár.png" class="masthead-avatar" alt="Scheller Soma" title="Scheller Soma">
+            <!--fő fejléc címe-->
+            <h1 class="masthead-heading text-uppercase mb-0">Scheller Soma</h1>
+            <!--ikon és elválasztó elhelyezése a cím alá-->
+            <div class="divider-custom divider-light">
+                <!--Elválasztó vonal-->
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <!--Elválasztó vonal-->
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="masthead-subheading font-weight-bold mb-0"> programozó - rendszergazda - tanuló</p>
+        </div>
+   </header>
+   <main>
+        
+        <!--portfólió szekció-->
+        <section class="page-section portfolio" id="portfolio">
+            <!--portfolió szekció főcím szövege-->
+            <h2 class="text-center page-section-heading text-uppercase text-dark mb-0">Képek</h2>
+            <div class="divider-custom">
+                <!--Elválasztó vonal-->
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
+                <!--Elválasztó vonal-->
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption  d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/325431819_481189624189401_3907922057757821587_n.png" alt="The forest" class="img-fluid ">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption  d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/Képernyőfelvétel(96).png" alt="Első munkám" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption  d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/cod1.png" alt="Első munkám" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+        </section>
+
+        <!--Rólunk szekció-->
+        <section class="page-section bg-secondary text-white mb-0" id="about">
+            <div class="container">
+                <!--Rólunk szekció fejrész-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Rólam</h2>
+                <div class="divider-custom divider-light">
+                    <!--Elválasztó vonal-->
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <!--Elválasztó vonal-->
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!--Rólam szekció tartalma-->
+                <div class="row">
+                    <div class="col-lg-4 mx-auto">
+                        <p class="lead">A nevem Scheller Soma. A Hatvani Széchenyi István Római Katolikus technikum és gimnázium tanulója vagyok. Hobbim a sport, és a számítógépes játékok. </p>
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <img class="img-fluid" src="images/Képernyőfelvétel(86).png" alt="Játék">
+                    </div>
+                </div>
+                <!--Rólam szekció gombja-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light text-uppercase" href="https://www.google.com/search?q=hobbi&rlz=1C1GCEU_huHU1040HU1040&oq=hobbi&aqs=chrome..69i57j0i131i433i512j46i433i512j0i512l4j46i433i512j46i512j0i10i457i512.2816j0j7&sourceid=chrome&ie=UTF-8">
+                    <i class="fas fa-download mt-2"></i>
+                    Hobbi
+                    </a>
+
+                </div>
+            </div>
+        </section>
+       <!--Kapcsolat szekció-->
+       <section class="page-section" id="contact">
+            <div class="container">
+                <!--Kapcsolat szekció fejléce-->
+                <h2 class="page-section-heading text-center text-uppercase text-dark">Kapcsolat</h2>
+                <div class="divider-custom">
+                    <!--Elválasztó vonal-->
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+                    <!--Elválasztó vonal-->
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!--űrlap kezdete-->
+                <div class="container" id="contactFormStart">
+                    <form id="contactForm">
+                        <!--névmező-->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="name">Név</label>
+                            <input class="form-control" id="name" type="text" placeholder="Valamilyen Valaki">
+                        </div>
+
+                        <!--email mező-->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="email">E-mail</label>
+                            <input class="form-control" id="email" type="email" placeholder="valaki@gmail.com">
+                        </div>
+
+                        <!--üzenetmező-->
+                        <div class="mb-3">
+                            <label class="form-label fw-bold" for="message">üzenet</label>
+                            <textarea class="form-control" id="message" placeholder="Írja meg az üzenetét!"></textarea>
+                        </div>
+
+                        <!--küldés-->
+                        <div class="d-grid">
+                            <button class="btn btn-dark btn-lg" type="submit">Üzenet küldése</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+       </section>
+    </main>
+
+    <!--lábléc rész-->
+    <footer class="footer text-center bg-dark">
+        <div class="container">
+            <div class="row">
+                <!--lábléc helyszín-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mg-4">Helyszín</h4>
+                    <p class="lead mg-0">
+                        <br>3000 Hatvan
+                    </p>
+                </div>
+
+                <!--lábléc közösségi ikonok-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mg-4">Elérhetőségeim</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://facebook.com/SomaScheller"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:schellersoma@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="tel:+36707275886"><i class="fa-solid fa-phone"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://instagram.com/snellersoma"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.google.com/search?q=t%C5%B1z&oq=t%C5%B1z&aqs=chrome..69i57.2883j0j1&sourceid=chrome&ie=UTF-8"><i class="fa-solid fa-fire"></i></a>
+                    
+                </div>
+
+                <!--lábléc mottónk-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mg-4">További weboldalam</h4>
+                    <p class="lead mg-0">
+                        <a class="btn btn-outline-light" href="https://valakhi.github.io/parlagfu/"><i class="fa-regular fa-envelope"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+
+   </footer>
+   <!--Jogi szöveg-->
+   <div class="bg-dark text-center text-white py-3">
+    <div class="container">
+        <small>Minden jog fenntartva &copy; 2023</small>
+    </div>
+
+   </div>
+
+
+    <!--Első-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!--portfolió modal címe-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">The forest</h2>
+                            <div class="divider-custom">
+                                <!--Elválasztó vonal-->
+                                <div class="divider-custom-line"></div>
+                                <!--FA ikon elhelyezése-->
+                                <div class="divider-custom-icon"><i class="fa fa-gamepad"></i></div>
+                                <!--Elválasztó vonal-->
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <!--portfőlió modal képe-->
+                            <img class="img-fluid rounded mb-5" src="images/325431819_481189624189401_3907922057757821587_n.png" alt="The forest" title="The forest">
+                            <!--portfólió modal szövege-->
+                            <p class="mb-4">Egy kicsit bugos</p>
+                            <button class="btn btn-success" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Bezárás
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!--második-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!--portfolió modal címe-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">COD WZ2</h2>
+                                <div class="divider-custom">
+                                    <!--Elválasztó vonal-->
+                                    <div class="divider-custom-line"></div>
+                                    <!--FA ikon elhelyezése-->
+                                    <div class="divider-custom-icon"><i class="fa fa-gamepad"></i></div>
+                                    <!--Elválasztó vonal-->
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!--portfőlió modal képe-->
+                                <img class="img-fluid rounded mb-5" src="images/Képernyőfelvétel(96).png" alt="COD" title="COD">
+                                <!--portfólió modal szövege-->
+                                <p class="mb-4">szintén kicsit bugos</p>
+                                <button class="btn btn-success" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Bezárás
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Harmadik-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!--portfolió modal címe-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">COD WZ2</h2>
+                            <div class="divider-custom">
+                                <!--Elválasztó vonal-->
+                                <div class="divider-custom-line"></div>
+                                <!--FA ikon elhelyezése-->
+                                <div class="divider-custom-icon"><i class="fa fa-gamepad"></i></div>
+                                <!--Elválasztó vonal-->
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <!--portfőlió modal képe-->
+                            <img class="img-fluid rounded mb-5" src="images/cod1.png" alt="COD" title="COD">
+                            <!--portfólió modal szövege-->
+                            <p class="mb-4">Nem szereti a videókártya</p>
+                            <button class="btn btn-success" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Bezárás
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
