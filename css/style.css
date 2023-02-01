@@ -168,14 +168,16 @@ html {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
+
 }
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 70%;
+  max-width: 60%;
   border-radius: 0.5rem;
   overflow: hidden;
+  
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -202,6 +204,13 @@ html {
   line-height: 2rem;
 }
 @media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 65%) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
