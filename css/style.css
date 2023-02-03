@@ -169,6 +169,10 @@ html {
     font-size: 1.5rem;
   }
 
+.carousel-control-prev .carousel-control-next {
+  display:none
+}
+
 }
 .portfolio .portfolio-item {
   cursor: pointer;
